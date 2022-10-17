@@ -22,6 +22,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller}/{action=Index}/{id?}");
 
-app.MapFallbackToFile("indexe.html"); ;
+app.MapFallbackToFile("indexes.html"); ;
 
 app.Run();
