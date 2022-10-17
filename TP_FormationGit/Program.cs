@@ -13,10 +13,17 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//Commentaire test
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-
+int a = 0;
+while (a > 100)
+{
+    WeatherForecast.Leopard = "ABCDEFGHIJKLMNOP";
+    global::System.Console.WriteLine(WeatherForecast.Leopard);
+    a++;
+}
 
 app.MapControllerRoute(
     name: "default",

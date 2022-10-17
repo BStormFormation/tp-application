@@ -11,5 +11,7 @@ namespace TP_FormationGit
         public string? Summary { get; set; }
 
         public string Demo { get; set; }
+
+        public string Leopard { get; set; }
     }
 }
