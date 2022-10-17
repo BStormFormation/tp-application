@@ -36,6 +36,7 @@
     "@angular-devkit/build-angular": "^14.0.3",
     "@angular/cli": "^14.0.3",
     "@angular/compiler-cli": "^14.0.3",
+    "@schematics/angular": "^14.2.6",
     "@types/jasmine": "~4.0.3",
     "@types/jasminewd2": "~2.0.10",
     "@types/node": "^18.0.0",
@@ -49,6 +50,5 @@
   },
   "overrides": {
     "autoprefixer": "10.4.5"
-  },
-  "optionalDependencies": {}
+  }
 }
