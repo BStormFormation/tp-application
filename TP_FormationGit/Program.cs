@@ -24,4 +24,8 @@ app.MapControllerRoute(
 
 app.MapFallbackToFile("index.html"); ;
 
+
+Coucou c'est greg qui est venu perturber un peu le code , lol ;-)
+
+
 app.Run();
