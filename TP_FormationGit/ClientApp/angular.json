@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "TP_FormationGit"
+  "defaultProject": "TP_FormationGit",
+  "cli": {
+    "analytics": false
+  }
 }
